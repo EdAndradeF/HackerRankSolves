@@ -4,7 +4,6 @@ def count_substring(string, sub_string):
     for indx in range(0, len(string)):
         if sub_string in string[indx:sub+indx]:
             count += 1
-
     return count
 
 
