@@ -8,11 +8,9 @@ import sys
 
 
 def solve(s):
-    resultado = list(s)
-    for words in resultado:
-        resultado.replace(words, words.capitalize())
+    s = s.split(' ')
 
-    return ' '.join(words.capitalize() for words in resultado)
+    return ' '.join(words.capitalize() for words in s)
 
 
 
